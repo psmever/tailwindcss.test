@@ -54,15 +54,15 @@
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "src/**/*.{ts,json,css,md}": [
+            "eslint --fix",
+            "prettier --single-quote --write"
+        ]
     }
-  },
-  "lint-staged": {
-    "src/**/*.{ts,json,css,md}": [
-      "eslint --fix",
-      "prettier --single-quote --write"
-    ]
-  }
 }
