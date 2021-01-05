@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch, BrowserRouter } from 'react-router-dom';
-import { DefaultPage, MainPage, TestPage } from 'components/pages';
+import { DefaultPage, MainPage, TestPage } from 'pages';
 
 const Routes = () => {
     return (
