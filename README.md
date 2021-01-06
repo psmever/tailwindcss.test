@@ -39,3 +39,16 @@ https://stackoverflow.com/questions/47607602/how-to-add-a-tailwind-css-rule-to-c
 
 ```
 
+#### route
+> http://localhost:3000/default
+
+> http://localhost:3000/main
+
+> http://localhost:3000/test
+
+> http://localhost:3000/navbar
+
+> http://localhost:3000/stackedlayouts
+
+> http://localhost:3000/Login
+
